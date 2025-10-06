@@ -1,16 +1,50 @@
-# React + Vite
+# Signal Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hey! Das hier ist ein kleines, aber feines Factory-/Automatisierungs-Game, gebaut mit React + Vite. Du kannst Datenquellen, Prozessoren, Splitter, Merger und mehr auf ein Spielfeld ziehen, verbinden und so deine eigene kleine Datenfabrik bauen. Ziel: Möglichst effizient Datenpakete produzieren!
 
-Currently, two official plugins are available:
+## Features
+- Drag & Drop Maschinen aufs Spielfeld
+- Verbindungen zwischen Maschinen ziehen (Splitter, Merger, usw.)
+- Live-Stats zu allen Maschinen
+- Ressourcen- und Produktionsübersicht im HUD
+- Simulierte Datenflüsse und Verarbeitung
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Screenshot
 
-## React Compiler
+Hier kannst du einen Screenshot einfügen:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<img src="./Screenshot.png" alt="Screenshot" width="50%" />
 
-## Expanding the ESLint configuration
+*(Tipp: Ersetze das Bild durch einen echten Screenshot deines Spiels!)*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Setup & Installation
+
+1. **Repo klonen:**
+   ```bash
+   git clone <dein-repo-link>
+   cd signal-game
+   ```
+2. **Abhängigkeiten installieren:**
+   ```bash
+   npm install
+   ```
+   (Du brauchst Node.js >= 18)
+
+3. **Dev-Server starten:**
+   ```bash
+   npm run dev
+   ```
+   Dann öffnet sich das Game unter [http://localhost:5173](http://localhost:5173) (oder was Vite dir ausspuckt).
+
+## Packages/Requirements
+- React
+- Vite
+- TailwindCSS (für das Styling)
+
+Alles was du brauchst, ist schon in der `package.json` – einfach `npm install` reicht.
+
+## Mitmachen/Feedback
+
+Wenn du Bock hast, was zu verbessern oder nen Bug findest: Pull Requests und Issues sind willkommen! Einfach forken, branch machen, loslegen.
+
+Viel Spaß beim Basteln! 🚀
