@@ -21,7 +21,7 @@ Hier kannst du einen Screenshot einfügen:
 
 1. **Repo klonen:**
    ```bash
-   git clone <dein-repo-link>
+   git clone https://github.com/shiiduu/Ip-Packeting-Game
    cd signal-game
    ```
 2. **Abhängigkeiten installieren:**
