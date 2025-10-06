@@ -11,11 +11,9 @@ Hey! Das hier ist ein kleines, aber feines Factory-/Automatisierungs-Game, gebau
 
 ## Screenshot
 
-Hier kannst du einen Screenshot einfügen:
 
 <img src="./Screenshot.png" alt="Screenshot" width="50%" />
 
-*(Tipp: Ersetze das Bild durch einen echten Screenshot deines Spiels!)*
 
 ## Setup & Installation
 
